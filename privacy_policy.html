@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kebijakan Privasi — TIDELINE</title>
+  <style>
+    :root {
+      --bg-cream: #F5F0E5;
+      --card-bg: #FFFFFF;
+      --primary-navy: #173746;
+      --accent-teal: #236878;
+      --teal-light: #83B9BA;
+      --text-muted: #566B73;
+      --border-color: #E2DAC8;
+      --tag-bg: #E9E0CB;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-cream);
+      color: var(--primary-navy);
+      line-height: 1.68;
+      padding: 32px 16px;
+    }
+
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 44px 36px;
+      box-shadow: 0 8px 24px rgba(23, 55, 70, 0.05);
+    }
+
+    header {
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--tag-bg);
+      color: var(--primary-navy);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      padding: 5px 14px;
+      border-radius: 12px;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      font-size: 30px;
+      font-weight: 800;
+      color: var(--primary-navy);
+      margin-bottom: 8px;
+    }
+
+    .meta {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .lang-switcher {
+      display: flex;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .lang-btn {
+      background: var(--bg-cream);
+      border: 1px solid var(--border-color);
+      color: var(--primary-navy);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .lang-btn.active {
+      background: var(--primary-navy);
+      color: #FFFFFF;
+      border-color: var(--primary-navy);
+    }
+
+    section {
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--primary-navy);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    p {
+      color: #2F3E46;
+      font-size: 14.5px;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      color: #2F3E46;
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+
+    .highlight-card {
+      background: #F0F6F6;
+      border-left: 4px solid var(--accent-teal);
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 18px 0;
+    }
+
+    .highlight-card p {
+      margin: 0;
+      font-size: 13.5px;
+      color: var(--accent-teal);
+      font-weight: 600;
+    }
+
+    footer {
+      border-top: 1px solid var(--border-color);
+      padding-top: 24px;
+      margin-top: 36px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .lang-content {
+      display: none;
+    }
+
+    .lang-content.visible {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <span class="badge">TIDELINE • Mobile Game</span>
+      <h1 id="page-title">Kebijakan Privasi</h1>
+      <p class="meta" id="page-meta">Terakhir Diperbarui: 23 Oktober 2026 • Versi Aplikasi: 1.0.0</p>
+      
+      <div class="lang-switcher">
+        <button class="lang-btn active" onclick="switchLanguage('id')">🇮🇩 Bahasa Indonesia</button>
+        <button class="lang-btn" onclick="switchLanguage('en')">🇬🇧 English</button>
+      </div>
+    </header>
+
+    <!-- CONTENT: BAHASA INDONESIA -->
+    <div id="content-id" class="lang-content visible">
+      <div class="highlight-card">
+        <p>🔒 Ringkasan: TIDELINE adalah game offline murni. Kami TIDAK mengumpulkan, melacak, menyimpan, atau membagikan data pribadi Anda ke pihak mana pun.</p>
+      </div>
+
+      <section>
+        <h2>1. Pendahuluan</h2>
+        <p>Kebijakan Privasi ini menjelaskan bagaimana <strong>TIDELINE</strong> ("Aplikasi", "Game", atau "Kami") memperlakukan informasi pengguna saat Anda memainkan game kami pada perangkat Android.</p>
+        <p>Kami sangat menghargai privasi Anda. TIDELINE dirancang dengan filosofi <em>offline-first</em> tanpa ketergantungan pada server eksternal, analitik pihak ketiga, maupun jaringan iklan.</p>
+      </section>
+
+      <section>
+        <h2>2. Data yang Kami Kumpulkan</h2>
+        <p><strong>Kami TIDAK mengumpulkan data pribadi apa pun.</strong> Secara khusus:</p>
+        <ul>
+          <li><strong>Bukan Data Identitas:</strong> Kami tidak meminta atau mengumpulkan nama, alamat email, nomor telepon, atau identitas pribadi lainnya.</li>
+          <li><strong>Bukan Data Perangkat:</strong> Kami tidak mengumpulkan IMEI, Android ID, alamat IP, atau sidik jari perangkat.</li>
+          <li><strong>Bukan Data Lokasi:</strong> Kami tidak mengakses GPS atau data lokasi jaringan Anda.</li>
+          <li><strong>Bukan Data Finansial:</strong> Game ini tidak memiliki sistem transaksi mikro (*in-app purchases*) atau langganan berkala.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Penyimpanan Data Lokal</h2>
+        <p>Semua data kemajuan permainan (seperti level yang telah terbuka, perolehan bintang, dan preferensi pengaturan suara/bahasa) disimpan secara <strong>lokal pada perangkat Anda</strong> (pada penyimpanan internal aplikasi).</p>
+        <p>Data ini tidak pernah diunggah ke internet dan sepenuhnya berada dalam kendali Anda. Menghapus data aplikasi atau mencopot pemasangan (*uninstall*) game akan menghapus data kemajuan lokal tersebut secara permanen.</p>
+      </section>
+
+      <section>
+        <h2>4. Izin Perangkat (Permissions)</h2>
+        <p>TIDELINE <strong>tidak meminta izin sensitif apa pun</strong> pada sistem operasi Android Anda:</p>
+        <ul>
+          <li>❌ Tanpa izin Akses Internet (<code>INTERNET</code>)</li>
+          <li>❌ Tanpa izin Membaca/Menulis Penyimpanan Eksternal (<code>READ/WRITE_EXTERNAL_STORAGE</code>)</li>
+          <li>❌ Tanpa izin Kamera atau Mikrofon</li>
+          <li>❌ Tanpa izin Lokasi (<code>ACCESS_FINE/COARSE_LOCATION</code>)</li>
+          <li>❌ Tanpa izin Kontak atau Akun Pengguna</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Layanan Pihak Ketiga & Jaringan Iklan</h2>
+        <p>Aplikasi ini <strong>tidak menggunakan SDK atau layanan pihak ketiga apa pun</strong> untuk pelacakan, analitik, maupun periklanan:</p>
+        <ul>
+          <li>Tidak ada integrasi Google Analytics, Firebase, AppsFlyer, atau pelacak lainnya.</li>
+          <li>Tidak ada iklan pihak ketiga (seperti Google AdMob, Unity Ads, atau AppLovin).</li>
+          <li>Tidak ada tautan pelacakan tersembunyi.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>6. Privasi Anak-Anak (COPPA & GDPR)</h2>
+        <p>Game ini sepenuhnya aman untuk semua usia, termasuk anak-anak. Karena kami tidak mengumpulkan data pribadi apa pun, game ini sepenuhnya mematuhi ketentuan <em>Children's Online Privacy Protection Act</em> (COPPA) dan Peraturan Perlindungan Data Umum (GDPR).</p>
+      </section>
+
+      <section>
+        <h2>7. Perubahan pada Kebijakan Ini</h2>
+        <p>Jika kami memperbarui Kebijakan Privasi ini di masa mendatang, perubahan tersebut akan dicantumkan pada halaman ini beserta tanggal pembaruan terbaru. Namun, prinsip dasar kami untuk tidak mengumpulkan data pribadi pengguna akan tetap menjadi komitmen utama.</p>
+      </section>
+
+      <section>
+        <h2>8. Hubungi Kami</h2>
+        <p>Jika Anda memiliki pertanyaan mengenai Kebijakan Privasi ini atau tentang game TIDELINE, silakan hubungi kami melalui surel:</p>
+        <p><strong>Email Pengembang:</strong> <a href="mailto:support@tidelinestudio.com" style="color: var(--accent-teal); text-decoration: none; font-weight: 600;">support@tidelinestudio.com</a></p>
+      </section>
+    </div>
+
+    <!-- CONTENT: ENGLISH -->
+    <div id="content-en" class="lang-content">
+      <div class="highlight-card">
+        <p>🔒 Summary: TIDELINE is a 100% offline game. We do NOT collect, track, store, or share your personal data with anyone.</p>
+      </div>
+
+      <section>
+        <h2>1. Introduction</h2>
+        <p>This Privacy Policy explains how <strong>TIDELINE</strong> ("Application", "Game", or "We") handles user information when you play our puzzle game on Android devices.</p>
+        <p>We deeply respect your privacy. TIDELINE is built on an <em>offline-first</em> foundation with zero reliance on remote servers, third-party analytics, or ad networks.</p>
+      </section>
+
+      <section>
+        <h2>2. Information We Collect</h2>
+        <p><strong>We do NOT collect any personal information whatsoever.</strong> Specifically:</p>
+        <ul>
+          <li><strong>No Identity Data:</strong> We do not ask for or collect names, email addresses, phone numbers, or user accounts.</li>
+          <li><strong>No Device Data:</strong> We do not collect IMEI, Android ID, IP addresses, or device fingerprints.</li>
+          <li><strong>No Location Data:</strong> We do not access GPS, network, or coarse/fine location data.</li>
+          <li><strong>No Financial Data:</strong> There are no in-app purchases, microtransactions, or recurring subscriptions.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Local Data Storage</h2>
+        <p>All gameplay progression data (such as unlocked levels, earned stars, and audio/language preferences) is stored <strong>locally on your own device</strong> (within sandboxed application storage).</p>
+        <p>This data is never transmitted to the internet and remains under your complete control. Clearing app storage or uninstalling the game permanently deletes local save records.</p>
+      </section>
+
+      <section>
+        <h2>4. Device Permissions</h2>
+        <p>TIDELINE <strong>requires zero sensitive permissions</strong> on Android:</p>
+        <ul>
+          <li>❌ No Internet access permission (<code>INTERNET</code>)</li>
+          <li>❌ No External storage access permission (<code>READ/WRITE_EXTERNAL_STORAGE</code>)</li>
+          <li>❌ No Camera or Microphone permissions</li>
+          <li>❌ No Location permissions (<code>ACCESS_FINE/COARSE_LOCATION</code>)</li>
+          <li>❌ No Contacts or Accounts permissions</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Third-Party Services & Ad Networks</h2>
+        <p>This game contains <strong>no third-party SDKs or trackers</strong>:</p>
+        <ul>
+          <li>No analytics frameworks (Google Analytics, Firebase, AppsFlyer, etc.).</li>
+          <li>No advertising networks (Google AdMob, Unity Ads, AppLovin, etc.).</li>
+          <li>No external telemetry or runtime downloads.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>6. Children's Privacy (COPPA & GDPR)</h2>
+        <p>TIDELINE is safe for players of all ages, including children. Because no personal information is collected, the application fully complies with the Children's Online Privacy Protection Act (COPPA), GDPR, and Google Play Families Policies.</p>
+      </section>
+
+      <section>
+        <h2>7. Changes to This Policy</h2>
+        <p>Should this policy be revised in the future, the updated document will be published on this page with an updated revision date. Our core commitment to zero data collection remains immutable.</p>
+      </section>
+
+      <section>
+        <h2>8. Contact Information</h2>
+        <p>If you have any questions or inquiries regarding this Privacy Policy or TIDELINE, please contact us at:</p>
+        <p><strong>Developer Email:</strong> <a href="mailto:support@tidelinestudio.com" style="color: var(--accent-teal); text-decoration: none; font-weight: 600;">support@tidelinestudio.com</a></p>
+      </section>
+    </div>
+
+    <footer>
+      <p>© 2026 TIDELINE Studio. All rights reserved.</p>
+      <p style="margin-top: 4px;">Minimalist Maritime Logic Puzzle • Offline Edition</p>
+    </footer>
+  </div>
+
+  <script>
+    function switchLanguage(lang) {
+      document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.lang-content').forEach(content => content.classList.remove('visible'));
+
+      if (lang === 'id') {
+        document.getElementById('content-id').classList.add('visible');
+        document.getElementById('page-title').innerText = 'Kebijakan Privasi';
+        document.getElementById('page-meta').innerText = 'Terakhir Diperbarui: 23 Oktober 2026 • Versi Aplikasi: 1.0.0';
+        document.querySelectorAll('.lang-btn')[0].classList.add('active');
+      } else {
+        document.getElementById('content-en').classList.add('visible');
+        document.getElementById('page-title').innerText = 'Privacy Policy';
+        document.getElementById('page-meta').innerText = 'Last Updated: October 23, 2026 • App Version: 1.0.0';
+        document.querySelectorAll('.lang-btn')[1].classList.add('active');
+      }
+    }
+  </script>
+</body>
+</html>
+
